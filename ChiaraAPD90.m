@@ -10,7 +10,7 @@ voltage = data(:, 2);
 figure
 plot(time, voltage); 
 xlabel('Time (ms)');
-ylabel('Vm (mV)'); 
+ylabel('Vm (mV)'); %hi i am editing
 title('Action Potential, Ko=5.4 mV');
 set(gca, 'fontsize', 14);
 set(gcf, 'color', 'w');
